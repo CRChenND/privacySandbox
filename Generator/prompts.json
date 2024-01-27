@@ -1,0 +1,16 @@
+{
+    "profile":{
+        "prompt": "The format of the generated result should look like the following examples: {persona}.",
+        "prefix": "Return a realistic profile. This year is 2024. The income should be in dollar. The home address must include street, city, and zip code and be as real as possible. The city should be a real city in USA. The birthday should be in the MM/DD/YYYY format. The demographic of this person should represent the US population sample. The generated profile should match the following guidance: {guidance}. Fit into the braces in the template: {template}.",
+        "suffix": "Return the profile in only one paragraph.",
+        "template": "{First name} {Last name} is a {age ranging from 18 to 70 subject to continuous uniform distribution} {race} {gender} living in {real home address with street, city, state, and zip code}. {Pronoun} speaks {spoken language}. {Pronoun}'s education background is {education background}. {Pronoun}'s date of birth is {date of birth}. {Pronoun} is a {job}, and the annual income is {income in dollar}. {marital status} {parental status} {detailed habit and perference when using the computer, mobile phone, and the Internet}."
+    },
+    "event":{
+        "prompt": "Given this fictional person's profile, generate 50 calendar events for this person in a week. Events should contain things happen at home, happen at workplace, and happen during holiday or weekend."
+    },
+    "schedule":{
+        "prompt":"Given the profile of a fiction user: {persona} \n, and a event set: {event_example}, \n provide ideas for this person to write schedule. Refer to the event set to generate events. \n {schedule_example}",
+        "prefix":"",
+        "suffix":"Given the profile of a fiction user: {persona} \n, and a event set: {event_example}, return a reasonable and complete schedule for this person from {start_date} to {end_date}. Refer to the event set to generate events. The person usually works during workdays from 9 am to 5 pm and does not work during weekend. All the time beteen 06:00:00 to 23:59:59 for each day should have event. The number of events for each day should be more than 7. The address should contain valid street, city, state, and zip code. The latitude and longitude should not be corresponding to the address. {format_instructions}"
+    }
+}

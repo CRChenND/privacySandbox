@@ -1,0 +1,66 @@
+{
+    "profile": [
+        {"persona":"Abigail Patel is a 32-year-old Asian American female living in 325 Main St, Newark, NJ 07102. She speaks English and her education background includes a bachelor's degree in Marketing. Abigail's date of birth is 05/26/1991. She is currently working as a marketing manager, with an annual income of $85,000. Abigail is married and has two children. She enjoys browsing social media and streaming movies on her mobile phone during her free time. When using her computer, she prefers using a wireless mouse and keyboard for easy navigation.On the internet, she likes to shop for clothes and read reviews before making a purchase."},
+        {"persona":"Daniel Chan is a 30-year-old Asian man living in Seattle, Washington with zip code 98101. He is a project manager, and the annual income is around one hundred and twenty thousand USD. He lives alone in a studio apartment and likes to keep his space clean and organized. In his free time, he enjoys playing video games and reading books on his Kindle. He also likes to use social media platforms such as Twitter and Reddit to keep up with the latest news and trends."}
+    ],
+    "event":[
+        {
+            "persona":"Daniel Chan is a 30-year-old Asian man living in Seattle, Washington with zip code 98101. He is a project manager, and the annual income is around one hundred and twenty thousand USD. He lives alone in a studio apartment and likes to keep his space clean and organized. In his free time, he enjoys playing video games and reading books on his Kindle. He also likes to use social media platforms such as Twitter and Reddit to keep up with the latest news and trends.",
+            "event_example":["Home", "Golds Gym", "Starbucks", "Breakfast at home","Work at Amazon HQ", "Lunch at The Pink Door", "Lunch at Food Court", "Play video game", "Grocery shopping at Whole Foods", "Read books on Kindle", "Visit hospital", "Drink at a bar"]
+        },
+        {
+            "persona":"Julio Torres is a 26-year-old Hispanic man living in Los Angeles, California, with a zip code of 90022. He is a software developer, and the annual income is around seventy thousand USD. He lives with his parents and younger sister. Julio enjoys using social media platforms such as Twitter and Reddit to keep up with the latest tech news and share his thoughts with his followers. He also frequently uses streaming services like Netflix and Spotify to unwind after a long day of work.",
+            "event_example":["Stay at Home", "Gym", "Dinner at Bonefish Grill", "Breakfast at home", "Tech Office", "Lunch Spot", "Lunch at Chichen-fill-A", "Browse Twitter at home", "Browse Reddit at home", "Read books", "Visit his friends"]
+        }
+    ],
+    "schedule":[
+        {
+            "persona":"Daniel Chan is a 30-year-old Asian man living in Seattle, Washington with zip code 98101. He is a project manager, and the annual income is around one hundred and twenty thousand USD. He lives alone in a studio apartment and likes to keep his space clean and organized. In his free time, he enjoys playing video games and reading books on his Kindle. He also likes to use social media platforms such as Twitter and Reddit to keep up with the latest news and trends.",
+            "event_example":["Home", "Golds Gym", "Starbucks", "Breakfast at home","Work at Amazon HQ", "Lunch at The Pink Door", "Lunch at Food Court", "Play video game", "Grocery shopping at Whole Foods", "Read books on Kindle", "Visit hospital", "Drink at a bar"],
+            "schedule_example":[
+                {"start_time": "2023-06-05 00:00:00", "end_time": "2023-06-05 07:00:00", "event": "Home", "address":"1420 5th Ave, Seattle, WA 98101", "latitude":47.6101, "longitude":-122.3351},
+                {"start_time": "2023-06-05 07:00:00", "end_time": "2023-06-05 08:30:00", "event": "Golds Gym", "address":"1220 Howell St, Seattle, WA 98101", "latitude":47.6168, "longitude":-122.3368},
+                {"start_time": "2023-06-05 08:30:00", "end_time": "2023-06-05 09:00:00", "event": "Starbucks", "address":"1125 4th Ave, Seattle, WA 98101", "latitude":47.6069, "longitude":-122.3330},
+                {"start_time": "2023-06-05 09:00:00", "end_time": "2023-06-05 12:30:00", "event": "Work at Amazon HQ", "address":"410 Terry Ave N, Seattle, WA 98109", "latitude":47.6223, "longitude":-122.3366},
+                {"start_time": "2023-06-05 12:30:00", "end_time": "2023-06-05 13:30:00", "event": "Lunch at The Pink Door", "address":"1919 Post Alley, Seattle, WA 98101", "latitude":47.6101, "longitude":-122.3426},
+                {"start_time": "2023-06-05 13:30:00", "end_time": "2023-06-05 18:00:00", "event": "Work at Amazon HQ","address": "410 Terry Ave N, Seattle, WA 98109", "latitude":47.6223, "longitude":-122.3366},
+                {"start_time": "2023-06-05 18:00:00", "end_time": "2023-06-05 19:00:00", "event": "Grocery shopping at Whole Foods", "address":"2210 Westlake Ave, Seattle, WA 98121", "latitude":47.6175, "longitude":-122.3372},
+                {"start_time": "2023-06-05 19:00:00", "end_time": "2023-06-05 20:00:00", "event": "Dinner at home", "address":"1420 5th Ave, Seattle, WA 98101", "latitude":47.6101, "longitude":-122.3351},
+                {"start_time": "2023-06-05 20:00:00", "end_time": "2023-06-05 21:30:00", "event": "Read books on Kindle", "address":"1420 5th Ave, Seattle, WA 98101", "latitude":47.6101, "longitude":-122.3351},
+                {"start_time": "2023-06-05 21:30:00", "end_time": "2023-06-06 23:59:59", "event": "Home", "address":"1420 5th Ave, Seattle, WA 98101", "latitude":47.6101, "longitude":-122.3351},
+                {"start_time": "2023-06-06 00:00:00", "end_time": "2023-06-06 07:00:00", "event": "Home", "address":"1420 5th Ave, Seattle, WA 98101", "latitude":47.6101, "longitude":-122.3351},
+                {"start_time": "2023-06-06 07:00:00", "end_time": "2023-06-06 08:30:00", "event": "Breakfast at home", "address":"1420 5th Ave, Seattle, WA 98101", "latitude":47.6101, "longitude":-122.3351},
+                {"start_time": "2023-06-05 08:30:00", "end_time": "2023-06-05 09:30:00", "event": "Golds Gym", "address":"1220 Howell St, Seattle, WA 98101", "latitude":47.6168, "longitude":-122.3368},
+                {"start_time": "2023-06-06 09:00:00", "end_time": "2023-06-06 12:30:00", "event": "Work at Amazon HQ", "address":"410 Terry Ave N, Seattle, WA 98109", "latitude":47.6223, "longitude":-122.3366},
+                {"start_time": "2023-06-06 12:30:00", "end_time": "2023-06-06 13:30:00", "event": "Lunch at Food Court", "address":"1030 Post Alley, Seattle, WA 98101", "latitude":47.6102, "longitude":-122.3426},
+                {"start_time": "2023-06-06 13:30:00", "end_time": "2023-06-06 18:00:00", "event": "Work at Amazon HQ","address": "410 Terry Ave N, Seattle, WA 98109", "latitude":47.6223, "longitude":-122.3366},
+                {"start_time": "2023-06-06 18:00:00", "end_time": "2023-06-06 20:00:00", "event": "Home", "address":"1420 5th Ave, Seattle, WA 98101", "latitude":47.6101, "longitude":-122.3351},
+                {"start_time": "2023-06-05 20:00:00", "end_time": "2023-06-05 22:00:00", "event": "Play video game", "address":"1420 5th Ave, Seattle, WA 98101", "latitude":47.6101, "longitude":-122.3351},
+                {"start_time": "2023-06-06 22:00:00", "end_time": "2023-06-06 23:59:59", "event": "Read books on Kindle", "address":"1420 5th Ave, Seattle, WA 98101", "latitude":47.6101, "longitude":-122.3351}
+            ]
+        },
+        {
+            "persona":"Julio Torres is a 26-year-old Hispanic man living in Los Angeles, California, with a zip code of 90022. He is a software developer, and the annual income is around seventy thousand USD. He lives with his parents and younger sister. Julio enjoys using social media platforms such as Twitter and Reddit to keep up with the latest tech news and share his thoughts with his followers. He also frequently uses streaming services like Netflix and Spotify to unwind after a long day of work.",
+            "event_example":["Stay at Home", "Gym", "Dinner at Bonefish Grill", "Breakfast at home", "Tech Office", "Lunch Spot", "Lunch at Chichen-fill-A", "Browse Twitter at home", "Browse Reddit at home", "Read books", "Visit his friends"],
+            "schedule_example":[
+                {"start_time": "2023-06-06 00:00:00", "end_time": "2023-06-06 07:30:00", "event": "Stay at Home", "address":"123 Main St, Los Angeles, CA 90022", "latitude":34.0224, "longitude":-118.1676},
+                {"start_time": "2023-06-06 07:30:00", "end_time": "2023-06-06 08:15:00", "event": "Starbucks", "address":"5353 E Olympic Blvd, Los Angeles, CA 90022", "latitude":34.0152, "longitude":-118.1503},
+                {"start_time": "2023-06-06 08:15:00", "end_time": "2023-06-06 12:00:00", "event": "Tech Office", "address":"3000 E 1st St, Los Angeles, CA 90063", "latitude":34.0336, "longitude":-118.1675},
+                {"start_time": "2023-06-06 12:00:00", "end_time": "2023-06-06 12:45:00", "event": "Lunch Spot", "address":"3000 E 1st St, Los Angeles, CA 90063", "latitude":34.0337, "longitude":-118.1674},
+                {"start_time": "2023-06-06 12:45:00", "end_time": "2023-06-06 17:30:00", "event": "Tech Office", "address":"3000 E 1st St, Los Angeles, CA 90063", "latitude":34.0336, "longitude":-118.1675},
+                {"start_time": "2023-06-06 17:30:00", "end_time": "2023-06-06 19:00:00", "event": "Gym", "address":"1234 Whittier Blvd, Los Angeles, CA 90022", "latitude":34.0194, "longitude":-118.1557},
+                {"start_time": "2023-06-06 19:00:00", "end_time": "2023-06-06 19:45:00", "event": "Dinner at Bonefish Grill", "address":"534 Main St, Los Angeles, CA 90022", "latitude":34.0195, "longitude":-118.1534},
+                {"start_time": "2023-06-06 19:45:00", "end_time": "2023-06-06 21:00:00", "event": "Browse Reddit at home", "address":"123 Main St, Los Angeles, CA 90022", "latitude":34.0224, "longitude":-118.1676},
+                {"start_time": "2023-06-06 21:00:00", "end_time": "2023-06-06 23:59:59", "event": "Home", "address":"123 Main St, Los Angeles, CA 90022", "latitude":34.0224, "longitude":-118.1676},
+                {"start_time": "2023-06-10 00:00:00", "end_time": "2023-06-10 07:30:00", "event": "Stay at Home", "address":"123 Main St, Los Angeles, CA 90022", "latitude":34.0224, "longitude":-118.1676},
+                {"start_time": "2023-06-10 07:30:00", "end_time": "2023-06-10 08:00:00", "event": "Starbucks", "address":"5353 E Olympic Blvd, Los Angeles, CA 90022", "latitude":34.0152, "longitude":-118.1503},
+                {"start_time": "2023-06-10 08:00:00", "end_time": "2023-06-10 12:00:00", "event": "Tech Office", "address":"3000 E 1st St, Los Angeles, CA 90063", "latitude":34.0336, "longitude":-118.1675},
+                {"start_time": "2023-06-10 12:00:00", "end_time": "2023-06-10 12:35:00", "event": "Lunch at Chichen-fill-A", "address":"5222 E 1st St, Los Angeles, CA 90063", "latitude":34.0153, "longitude":-118.1574},
+                {"start_time": "2023-06-10 12:35:00", "end_time": "2023-06-10 18:00:00", "event": "Tech Office", "address":"3000 E 1st St, Los Angeles, CA 90063", "latitude":34.0336, "longitude":-118.1675},
+                {"start_time": "2023-06-10 18:00:00", "end_time": "2023-06-10 19:45:00", "event": "Dinner at home", "address":"123 Main St, Los Angeles, CA 90022", "latitude":34.0224, "longitude":-118.1676},
+                {"start_time": "2023-06-10 19:45:00", "end_time": "2023-06-10 21:00:00", "event": "Browse Twitter at home", "address":"123 Main St, Los Angeles, CA 90022", "latitude":34.0224, "longitude":-118.1676},
+                {"start_time": "2023-06-10 21:00:00", "end_time": "2023-06-10 23:59:59", "event": "Home", "address":"123 Main St, Los Angeles, CA 90022", "latitude":34.0224, "longitude":-118.1676}
+            ]
+        }
+    ]
+}
